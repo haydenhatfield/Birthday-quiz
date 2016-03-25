@@ -31,3 +31,5 @@ Example Session
   And the day? 11
   Eric, you are a fall baby of the stone age.
 """
+Name = input("What is your name?")
+if MOB == October and DOB == 31
