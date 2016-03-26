@@ -34,6 +34,7 @@ Example Session
 from datetime import datetime
 from calendar import month_name
 
+print(month_name)
 Name = input("What is your name?")
 MOB = input("What month were you born on?")
 DOB = input("What day were you born on?")
