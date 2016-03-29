@@ -36,7 +36,11 @@ from calendar import month_name
 
 print(month_name)
 Name = input("What is your name?")
-MOB = input("What month were you born on?")
+MOB = input("What month were you born in?")
 DOB = input("What day were you born on?")
-if MOB == "October" and DOB == "31":
-    print("You were born on Halloween!")
+YOB =input("What year were you born in")
+#if MOB == October and DOB == "31":
+    #print("You were born on Halloween!")
+#if MOB ==  and DOB == :
+    #print("Happy birthday!")
+    #list(month_name)[3]
