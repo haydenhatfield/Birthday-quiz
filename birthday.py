@@ -33,16 +33,17 @@ Example Session
 """
 from datetime import datetime
 from calendar import month_name
+todaymonth = datetime.today().month
+todaydate = datetime.today().day
 
-print(month_name)
 Name = input("What is your name?")
 MOB = input("What month were you born in?")
 DOB = input("What day were you born on?")
 YOB = input("What year were you born in")
 today = datetime.today()
 #CD = today.date(today.month and today.day)
-#if MOB == October and DOB == "31":
-    #print("You were born on Halloween!")
-if today.month == int(MOB) and today.day == int(DOB):
-    print("Happy birthday!")
+if MOB == months.index("October") and DOB == "31":
+    print("You were born on Halloween!")
+#if today.month == int(MOB) and today.day == int(DOB):
+    #print("Happy birthday!")
     #list(month_name)[3]
