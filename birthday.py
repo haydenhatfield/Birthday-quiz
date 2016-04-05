@@ -37,6 +37,8 @@ todaymonth = datetime.today().month
 todaydate = datetime.today().day
 today = datetime.today()
 
+MN = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+
 Name = input("What is your name?")
 MOB = input("What month were you born in?")
 DOB = input("What day were you born on?")
@@ -45,6 +47,6 @@ YOB = input("What year were you born in")
 
 if MOB == list(month_name)[10] and DOB == "31":
     print("You were born on Halloween!")
-#if today.month == int(MOB) and today.day == int(DOB):
-    #print("Happy birthday!")
+if today.month == MN.index(MOB) and today.day == int(DOB):
+    print("Happy birthday!")
     #list(month_name)[3]
