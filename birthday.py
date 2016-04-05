@@ -47,6 +47,6 @@ YOB = input("What year were you born in? ")
 
 if MOB == list(month_name)[10] and DOB == "31":
     print("You were born on Halloween!")
-if today.month == MN.index(MOB) and today.day == int(DOB):
+if today.month == MN.index(MOB)+1 and today.day == int(DOB):
     print("Happy birthday!")
     #list(month_name)[3]
