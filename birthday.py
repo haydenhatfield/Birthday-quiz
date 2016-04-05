@@ -40,9 +40,9 @@ today = datetime.today()
 MN = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 
 Name = input("What is your name?")
-MOB = input("What month were you born in?")
-DOB = input("What day were you born on?")
-YOB = input("What year were you born in")
+MOB = input("What month were you born in? ")
+DOB = input("What day were you born on? ")
+YOB = input("What year were you born in? ")
 #CD = today.date(today.month and today.day)
 
 if MOB == list(month_name)[10] and DOB == "31":
