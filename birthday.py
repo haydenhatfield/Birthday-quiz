@@ -50,5 +50,5 @@ if MOB == list(month_name)[10] and DOB == "31":
 if today.month == MN.index(MOB)+1 and today.day == int(DOB):
     print("Happy birthday!")
     
-if MOB == list(month_name)[1, 2, 12]+1:
-    print(Name", you are a winter baby")
+if MN.index(MOB)+1 in [1, 2, 12]:
+    print(Name)
